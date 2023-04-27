@@ -1,9 +1,7 @@
-function Komponenta1() {
+export function Komponenta1() {
     return (
         <div>
-        <p>Prikaži neki tekst</p>
+        <p>Komponenta 1 = Prikaži neki tekst</p>
         </div>
     )
 }
-
-export { Komponenta1 }
