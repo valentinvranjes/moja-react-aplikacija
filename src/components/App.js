@@ -30,6 +30,7 @@ import { KorisnikFunkcija } from "./KorisnikFunkcija";
 import KorisnikDijete from "./KorisnikDijete";
 
 
+
 // function WelcomeFunkcija() {
 //   return <h2>Welcome! Komponenta definirana funckijom.</h2>;
 // }
@@ -117,5 +118,6 @@ function App() {
     
     </div>);
   }
+
 
 export default App;
