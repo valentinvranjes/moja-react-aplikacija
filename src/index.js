@@ -5,10 +5,12 @@ import './index.css';
 // import App from './components/AppForme1';
 // import AppForme2 from './components/AppForme2';
 // import AppContext from './components/AppContext';
-import AppHOC from './components/AppHOC';
+// import AppHOC from './components/AppHOC';
+
+import AppRouter from './components/AppRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<AppHOC />);
+root.render(<AppRouter />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
