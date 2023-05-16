@@ -6,11 +6,14 @@ import './index.css';
 // import AppForme2 from './components/AppForme2';
 // import AppContext from './components/AppContext';
 // import AppHOC from './components/AppHOC';
+// import AppAPI from './components/AppAPI';
 
-import AppRouter from './components/AppRouter';
+import AppGraphQl from './AppGraphQl';
+
+// import AppRouter from './components/AppRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<AppRouter />);
+root.render(<AppGraphQl />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
